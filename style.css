@@ -12,6 +12,12 @@ h1{
     
 }
 
+#ramen-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #ramen-menu{
     display: flex;
     justify-content: center;
