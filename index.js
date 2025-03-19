@@ -35,8 +35,7 @@ function addSubmitListener() {
   const form = document.getElementById('ramen-form');
   form.addEventListener('submit', function(e) {
       e.preventDefault();
-     
-   
+      
 })
 }
 
