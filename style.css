@@ -38,17 +38,22 @@ h1{
 #new-ramen{
     display: flex;
     justify-content: center;
-    margin-left: 770px;
-    margin-right: 770px;
+    width: 23%;
+    margin: 0 auto;
     align-items: center;
     background-color: black;
     color: white;
+    padding: 0px;
 }
 
 p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#ramen-comment{
+    padding-bottom: 10px;
 }
 
 #ramen-form{
@@ -63,6 +68,7 @@ label{
     font-weight: bold;
     display: block;
     margin-top: 0;
+    padding: 0;
 }
 
 input{
@@ -71,6 +77,10 @@ input{
     width: 100%;
     padding: 8px;
     margin-top: 5px;
+}
+
+#ramen_comment{
+    padding: 25px;
 }
 button{
     width: 100px;
