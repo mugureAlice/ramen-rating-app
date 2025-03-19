@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ramens Project</title>
+    <link rel="stylesheet" href="./style.css">
     <script defer src="index.js"></script>
 </head>
 <body>
-    
+    <h1>Ramen Rater</h1>
+
+    <div id="ramen-menu"></div>
+        
+    <div id="ramen-details">
+        <img id="ramen-image" src="" alt="">
+        <div id="ramen-name"></div>
+    </div>
+        <p><strong>Rating:</strong> </p>
+        <p><span id="ramen-rating">0</span>/10</p>
+        <p><strong>Comment:</strong></p>
+        <p id="ramen-comment">Comment</p>
+    </div>
+    <h2 id="new-ramen">Add a New Ramen</h2>
+    <form id="ramen-form">
+        <label for="ramen-name-input">Name:</label>
+        <input type="text" id="ramen-name-input" required><br><br>
+        <label for="ramen-restaurant">Restaurant:</label>
+        <input type="text" id="ramen-restaurant" required><br><br>
+        <label for="ramen-image">Image:</label>
+        <input type="url" id="ramen-img" required><br><br>
+        <label for="ramen-rating">Rating:</label>
+        <input type="text" id="ramen-rating"><br><br>
+        <label for="ramen-comment">Comment:</label>
+        <input type="text" id="ramen-comment"><br><br>
+        <button type="submit">Create</button>
+    </form>
+
 </body>
 </html>
