@@ -11,10 +11,11 @@
     <h1>Ramen Rater</h1>
 
     <div id="ramen-menu"></div>
-        
+    <div class="wrap-image">
     <div id="ramen-details">
         <img id="ramen-image" src="" alt="">
-        <div id="ramen-name"></div>
+        <p id="ramen-name"></p>
+    </div>
     </div>
         <p><strong>Rating:</strong> </p>
         <p><span id="ramen-rating">0</span>/10</p>
@@ -24,15 +25,15 @@
     <h2 id="new-ramen">Add a New Ramen</h2>
     <form id="ramen-form">
         <label for="ramen-name-input">Name:</label>
-        <input type="text" id="ramen-name-input" required><br><br>
+        <input type="text" id="ramen-name-input" required>
         <label for="ramen-restaurant">Restaurant:</label>
-        <input type="text" id="ramen-restaurant" required><br><br>
+        <input type="text" id="ramen-restaurant" required>
         <label for="ramen-image">Image:</label>
-        <input type="url" id="ramen-img" required><br><br>
+        <input type="url" id="ramen-img" required>
         <label for="ramen-rating">Rating:</label>
-        <input type="text" id="ramen-rating"><br><br>
+        <input type="text" id="ramen-rating" required>
         <label for="ramen-comment">Comment:</label>
-        <input type="text" id="ramen_comment"><br><br>
+        <input type="text" id="ramen_ comment" required><br>   
         <button type="submit">Create</button>
     </form>
 

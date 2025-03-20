@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", main);
 
 const ramens = [
-    {id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "images/shoyu.jpg", rating: 5, comment: "Delicious!" },
-    {id: 2,  name: "Naruto Ramen", restaurant: "Menya", image: "images/naruto.jpg", rating: 4, comment: "Very flavorful!" },
-    {id: 3, name: "Gyukotsu Ramen", restaurant: "Ramen-ya",image: "images/gyukotsu.jpg",rating: 7, comment: "Sweet Aroma!"},
-    {id: 4,   name: "Kojiro Ramen", restaurant: "Iyo", image: "images/kojiro.jpg", rating: 8, comment: "Tasty!"},
-    {id: 5,  name: "Nirvana Ramen", restaurant: "Resta", image: "images/nirvana.jpg", rating: 9, comment: "Wow!"},
+    {id: 1, name: "Chinese Ramen", restaurant: "Yala", image: "images/Chinese.png", rating: 6, comment: "Magnificent!"},
+    {id: 2, name: "Japanese Ramen", restaurant: "Ukulu", image: "images/Japanese.png", rating: 4, comment: "Excellent!"},
+    {id: 3, name: "Kimchee Ramen", restaurant: "Kiba", image: "images/Kimchee.png", rating: 3, comment: "Wonderfull!"},
+    {id: 4, name: "Noodle Ramen", restaurant: "Basir", image: "images/Noodle.png", rating: 9, comment: "Brilliant!"},
+    {id: 5, name: "Prawn Ramen", restaurant: "Yoto", image: "images/Prawn.png", rating: 6, comment: "Awesome!"},
  ];
  function displayRamens() {
   const ramenMenu = document.getElementById('ramen-menu');
@@ -36,10 +36,13 @@ function addSubmitListener() {
   form.addEventListener('submit', function(e) {
       e.preventDefault();
       
-})
+  })
 }
 
 function main() {
   displayRamens();
- addSubmitListener();
+  addSubmitListener();
+  
 }
+
+ main();

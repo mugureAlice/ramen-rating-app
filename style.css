@@ -25,6 +25,26 @@ h1{
     padding: 10px;
 }
 
+#ramen-details{
+    position: relative;
+    display: inline-block;
+}
+
+.wrap-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ramen-name{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 20px;
+    background-color: beige;
+    color: black;
+}
+
 #ramen-image{
     display: block;
     margin: auto;
@@ -80,13 +100,13 @@ input{
 }
 
 #ramen_comment{
-    padding: 25px;
+    padding: 30px;
 }
 button{
     width: 100px;
     padding-left: 140px;
     padding-right: 150px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
     cursor: pointer;
     border-radius: 5px;
