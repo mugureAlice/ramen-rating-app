@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 h1{
     display: flex;
@@ -83,7 +84,7 @@ p{
     justify-content: center;
     align-items: center;
 }
-
+ 
 #ramen-comment{
     padding-bottom: 10px;
 }
