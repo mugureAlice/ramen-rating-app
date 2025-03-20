@@ -76,7 +76,7 @@ h1{
     align-items: center;
     background-color: black;
     color: white;
-    padding: 0px;
+    padding:10px;
 }
 
 p{
@@ -113,8 +113,11 @@ input{
 }
 
 #ramen_comment{
-    padding: 30px;
+    padding-bottom: 50px;
+   
+    
 }
+
 button{
     width: 100px;
     padding-left: 140px;
