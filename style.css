@@ -34,11 +34,20 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    #ramen-restaurant{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 20px;
+    background-color: beige;
+    color: black;
+    }
 }
 
 #ramen-name{
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     left: 20px;
     font-size: 20px;
     background-color: beige;
@@ -60,6 +69,7 @@ h1{
 #new-ramen{
     display: flex;
     justify-content: center;
+    height: 23%;
     width: 23%;
     margin: 0 auto;
     align-items: center;
